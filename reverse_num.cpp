@@ -12,7 +12,7 @@ int reverse_num(int n)
 
     res = res * 10 + digit;
 
-    reverse_num(n/10);
+    return reverse_num(n/10);
 
     
 }
