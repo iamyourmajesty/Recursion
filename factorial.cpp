@@ -2,10 +2,10 @@
 using namespace std;
 int factorial(int n)
 {
-    //base case
-    if(n==0 or n==1) return 1;
-    //recursive call
-    return n*factorial(n-1);
+    
+    if(n==0 or n==1) return 1; //base case
+    
+    return n*factorial(n-1); //recursive call
 }
 int main()
 {
