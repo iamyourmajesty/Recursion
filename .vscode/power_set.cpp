@@ -2,7 +2,7 @@
 using namespace std;
 void power_set(string input ,int index,string output)
 {
-    if(index==input.length())
+    if(index>=input.length())
     {
         cout<<output<<" ";
         return;
