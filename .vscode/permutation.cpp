@@ -15,7 +15,7 @@ void solve(string str,int i)
     {
         swap(str[i],str[j]);
         solve(str,i+1);
-        swap(str[i],str[j]);//backtracking
+        
     }
 }
 int main()
