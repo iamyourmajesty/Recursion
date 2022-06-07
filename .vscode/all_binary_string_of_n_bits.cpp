@@ -31,4 +31,7 @@ eg-> 2
     01
     10
     11
+
+    if you will use array u don't have to do any backtrack
+    and if your use vector u have to backtrack
         */
