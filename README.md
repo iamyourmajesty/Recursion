@@ -1,1 +1,1 @@
-<img src="recursion.png" width="1350"/>
+<img src="recursion.jpg" width="1350"/>
