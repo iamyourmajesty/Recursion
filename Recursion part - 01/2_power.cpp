@@ -2,13 +2,16 @@
 using namespace std;
 int power(int a,int b)
 {
-    if(b==0 ) return 1;  //base case
+    int ans=1;
+    for(int i=1;i<=b;i++)
+    ans *= a;
 
-    return a * power(a,b-1); //recursive call
+    return ans;
 }
 int main()
 {
-    int a=3,b=4;
+    int a=2;
+    int b=7;
     cout<<power(a,b);
     return 0;
 }
