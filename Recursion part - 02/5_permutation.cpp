@@ -1,5 +1,5 @@
-//permutation of abc :- abc acb bac bca cab cba
-//print all permutation of a given string
+//  permutation of abc :- abc acb bac bca cab cba
+//  print all permutation of a given string
 #include<bits/stdc++.h>
 using namespace std;
 
