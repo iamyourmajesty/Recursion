@@ -15,7 +15,7 @@ int fast_power(int a,int b)
 int main()
 {
     int a = 2;
-    int b= 7;
+    int b= 11;
     cout<<fast_power(a,b);
     return 0;
 }
