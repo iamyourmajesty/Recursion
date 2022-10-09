@@ -1,21 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
-void reverse_str(string &str,int s,int e)
+bool bin_search(int arr[],int n,int target,int s,int e)
 {
-    if(s>e) return; //base case
+    if(s>e) return false;
 
-    swap(str[s],str[e]);
-    s++;                    //processing
-    e--;
+    int mid = s + (e-s)/2;
 
+    if(arr[mid]==target) return true;
+    else if(target>arr[mid]) s = mid + 1;
+    else e = mid - 1;
 
-    reverse_str(str,s,e); // recursive call
+   return  bin_search(arr,n,target,s,e);
 }
 int main()
 {
-    string str="prince";
-    reverse_str(str,0,str.size()-1);
+    int arr[]={12,16,31,34,45,67,84,135};
+    int n=sizeof(arr)/sizeof(int);
+    int target=66;
 
-    cout<<str;
+    if(bin_search(arr,n,target,0,n-1))
+    cout<<"found";
+    else
+    cout<<"not found";
     return 0;
 }
