@@ -1,5 +1,5 @@
-<img src="images/rat-in-maze.png" width="1350"/>
+<img src="Images/rat-in-maze.png" width="1350"/>
 <hr>
-<img src="images/image-98.png" width="1350"/>
+<img src="Images/image-98.png" width="1350"/>
 <hr>
-<img src="images/queens.jpg" width="1350"/>
+<img src="Images/queens.jpg" width="1350"/>
