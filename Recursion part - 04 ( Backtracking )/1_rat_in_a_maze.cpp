@@ -2,7 +2,7 @@
 using namespace std;
 bool is_safe(vector <vector <int> > &maze,vector <vector <int> > &visted,int n,int x,int y)
 {
-    //point must be inside maze 
+    //point must be inside maze  
     //maze[x][y]== 1
     //visted[x][y] != 1
     if(x>=0 and y>=0 and x<n and y<n and maze[x][y]==1 and visted[x][y]!=1)
