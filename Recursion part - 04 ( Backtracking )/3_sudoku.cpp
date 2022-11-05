@@ -44,7 +44,7 @@ bool solve(vector <vector <int> > &arr)
         {
             if(arr[i][j]==0)
             {
-                for(int value=0;value<=9;value++)
+                for(int value=1;value<=9;value++)
                 {
                     if(is_safe(arr,i,j,value))
                     {
@@ -83,3 +83,5 @@ print(arr);
 
     return 0;
 }
+
+// https://www.codingninjas.com/codestudio/problems/sudoku-solver_699919?leftPanelTab=1
