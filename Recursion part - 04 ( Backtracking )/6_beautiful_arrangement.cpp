@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//  METHOD - 1
 // bool is_beautiful(vector <int> &arr)
 // {
 //     int index,value;
@@ -29,7 +29,7 @@ void solve(vector <int> &arr,int curr,int &ans)
     {
         
         index = curr+1;
-        value = arr[i];
+        value = arr[i];                                     // METHOD - 2
         if((index%value!=0) and (value%index!=0))
         continue;
         
